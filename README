@@ -1,8 +1,10 @@
-Code originally written during London Code Dojo 21 - Random Numbers Kata (2/04/13).
+Code originally written during London Code Dojo 21 - Random Numbers Kata (02/04/13).
 
 Thanks to Rupert Wood for pairing with me!
 
 Code cleaned up and extended to fully utilise lambdas from Java 8 EA build.
+
+All time measurements given in milliseconds.
 
 -----------------
 Benchmark Results
