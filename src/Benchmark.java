@@ -1,6 +1,6 @@
 import random.generator.IRandomNumberArrayGenerator;
 import random.generator.RandomNumberArrayGenerator;
-import sorting.LambdaSortAlgorithm;
+import sorting.QuickSortAlgorithm;
 import sorting.SortAlgorithm;
 
 /**
@@ -15,8 +15,8 @@ public class Benchmark {
 
     private static IRandomNumberArrayGenerator randomNumberArrayGenerator = new RandomNumberArrayGenerator();
     private static SortAlgorithm sortAlgorithm
-            = new LambdaSortAlgorithm();
-//            = new QuickSortAlgorithm();
+//            = new LambdaSortAlgorithm();
+            = new QuickSortAlgorithm();
 
     public static void main(String[] args) {
         int[] sortedIntegers = new int[0];

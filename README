@@ -1,0 +1,49 @@
+Code originally written during London Code Dojo 21 - Random Numbers Kata (2/04/13).
+
+Thanks to Rupert Wood for pairing with me!
+
+Code cleaned up and extended to fully utilise lambdas from Java 8 EA build.
+
+-----------------
+Benchmark Results
+-----------------
+
+>> LambdaSortAlgorithm <<
+Random Generation Time: 3
+Sort time: 8
+Duration: 11
+Random Generation Time: 3
+Sort time: 9
+Duration: 12
+Random Generation Time: 2
+Sort time: 8
+Duration: 10
+Random Generation Time: 3
+Sort time: 8
+Duration: 11
+Random Generation Time: 3
+Sort time: 8
+Duration: 11
+Random Generation Time: 2
+Sort time: 9
+Duration: 11
+
+>> QuickSortAlgorithm <<
+Random Generation Time: 4
+Sort time: 10
+Duration: 14
+Random Generation Time: 2
+Sort time: 11
+Duration: 13
+Random Generation Time: 2
+Sort time: 10
+Duration: 12
+Random Generation Time: 3
+Sort time: 10
+Duration: 13
+Random Generation Time: 3
+Sort time: 10
+Duration: 13
+Random Generation Time: 3
+Sort time: 10
+Duration: 13
